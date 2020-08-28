@@ -1,0 +1,118 @@
+nav {
+  margin-bottom: 1.0rem;
+}
+nav {
+  position: relative;
+  margin: 2px;
+  top: 1rem;
+  background: #ebd4d4;
+  padding: .5rem;
+}
+nav a:hover {
+  color:#5c9f7f;
+}
+
+nav a {
+  color: #e6dddd;
+  padding: 0.5em;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+  border-right: 2px solid rgba(32, 133, 7, 0.4);
+}
+@media (max-width: 768px) {
+  .navbar-nav .nav-item:not(:last-child) {
+    border-right: none;
+  }
+}
+.cover {
+  object-fit: cover;
+}
+.cover {
+  color: #54b7e6;
+  margin-left: 0.5rem;
+  -webkit-box-shadow: 5px 10px 10px 10px #d5ded6;
+  box-shadow: 5px 10px 10px 10px #bac1bb;
+}
+.custom-nav {
+  border: 0px;
+  padding: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+h2, legend {
+  font-family: Times New Roman, serif;
+  font-weight: 400;
+  color: #336699;
+  text-shadow: 2px 1px 0 #c1c1c1;
+}
+
+main .form-control
+{
+  display: inline-block;
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+main
+{
+  position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow-x: auto;
+    background-color: rgba(214, 202, 188, 0.44);
+    overflow-x: auto;
+}
+
+ main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+.toppings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.card {
+    width: 14rem;
+}
+
+.btn-moz {
+    font-family: "Nunito Sans";
+    font-weight: 700; }
+    .btn:hover {
+      cursor: pointer; }
+
+.btn-pop {
+    background-color: red;
+    color: #000000;
+    box-shadow: 4px 4px #000000;
+    border: 2px solid #000000;
+    position: relative;
+    top: -2px;
+    transition: all 0.08s ease; }
+    .btn-pop:focus, .btn-pop:active, .btn-pop:hover {
+      transform: translate(4px, 4px);
+      color: #000000;
+      box-shadow: none; }
+
+.asteriskField {
+  display: none;
+}
